@@ -31,7 +31,7 @@ export const particles = {
       direction: "none",
       random: true,
       straight: false,
-      bounce: true,
+      // bounce: true,
     },
   },
   interactivity: {

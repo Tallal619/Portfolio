@@ -18,20 +18,20 @@ function MyApp({ Component, pageProps }) {
   }, []);
 
   return (
-    <>
+    <div className="bg-[#434242]">
       <Particles
-        className="z-[0]"
+        className="fixed"
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
         options={particles}
       />
-      <div className="z-10 bg-[#434242]">
+      <div className="relative">
         <Layout>
           <Component {...pageProps} />
         </Layout>
       </div>
-    </>
+    </div>
   );
 }
 
