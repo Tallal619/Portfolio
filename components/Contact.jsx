@@ -46,6 +46,9 @@ const Contact = () => {
           src={linkedInIcon.src}
           alt=""
           className="w-[10%] h-[10%] md:w-[3%] cursor-pointer"
+          onClick={() => {
+            openSocials("https://www.linkedin.com/in/uzzam-altaf-1b1675260/");
+          }}
         />
       </div>
 

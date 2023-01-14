@@ -1,12 +1,17 @@
 /** @format */
 
-import React from "react";
+import React, { forwardRef } from "react";
 import TypeWriter from "typewriter-effect";
 import downArrow from "../public/down-arrow.png";
+import linkedInIcon from "../public/linkedin.png";
 
-const Intro = ({ scrollToHero }) => {
+const Intro = ({ scrollToHero }, ref) => {
+  const openSocials = (link) => {
+    window.open(link, "_blank", "noreferrer");
+  };
+
   return (
-    <>
+    <div className="flex items-center justify-center h-screen" ref={ref}>
       <div className="flex flex-col items-center justify-center">
         <img
           src="https://cdn-icons-png.flaticon.com/128/2202/2202112.png"
@@ -32,6 +37,17 @@ const Intro = ({ scrollToHero }) => {
           />
         </span>
 
+        <div className="flex flex-row items-center justify-center gap-4 mt-4">
+          <img
+            src={linkedInIcon.src}
+            alt=""
+            className="w-[10%] h-[10%] object-contain cursor-pointer"
+            onClick={() => {
+              openSocials("https://www.linkedin.com/in/uzzam-altaf-1b1675260/");
+            }}
+          />
+        </div>
+
         <div
           className="px-2 py-2 mt-8 bg-white rounded-md cursor-pointer animate-bounce"
           onClick={scrollToHero}
@@ -39,8 +55,8 @@ const Intro = ({ scrollToHero }) => {
           <img src={downArrow.src} width={30} height={30} />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
-export default Intro;
+export default forwardRef(Intro);

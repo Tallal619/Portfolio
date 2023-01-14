@@ -6,13 +6,20 @@ import TypeWriter from "typewriter-effect";
 import { skills } from "../config/skills";
 
 // COMPONENT
-const Hero = ({ text }, ref) => {
+const Hero = (
+  { text, scrollTo, scrollToProjects, scrollToSkills, skillsRef },
+  ref
+) => {
   return (
     <div
       ref={ref}
       className="flex flex-col items-start justify-start w-full h-auto pb-12 font-bold bg-gray-700"
     >
-      <Header />
+      <Header
+        scrollTo={scrollTo}
+        scrollToProjects={scrollToProjects}
+        scrollToSkills={scrollToSkills}
+      />
       <span className="self-center py-4 mt-10 text-2xl md:text-4xl border-b-[#0be779] text-center border-b-4 text-gray-50">
         About
       </span>
@@ -49,7 +56,10 @@ const Hero = ({ text }, ref) => {
             awesome personal projects.
           </span>
         </div>
-        <div className="flex flex-col flex-1 gap-4 px-2 md:px-8 text-gray-50">
+        <div
+          className="flex flex-col flex-1 gap-4 px-2 md:px-8 text-gray-50"
+          ref={skillsRef}
+        >
           <span className="mt-8 text-2xl font-bold text-center md:mt-0 md:text-3xl">
             Skills
           </span>

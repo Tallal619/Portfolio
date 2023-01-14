@@ -7,9 +7,24 @@ import { Contact, Hero, Intro, ProjectsSection } from "../components";
 
 export default function Home() {
   const ref = useRef(null);
+  const homeRef = useRef(null);
+  const projectsRef = useRef(null);
+  const skillsRef = useRef(null);
 
   const scrollToHero = () => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const scrollToHome = () => {
+    homeRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const scrollToProjects = () => {
+    projectsRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const scrollToSkills = () => {
+    skillsRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -21,17 +36,24 @@ export default function Home() {
       </Head>
       <div className="flex flex-col items-center justify-center w-full h-screen">
         <Fade bottom>
-          <Intro scrollToHero={scrollToHero} />
+          <Intro ref={homeRef} scrollToHero={scrollToHero} />
         </Fade>
       </div>
       <div className="z-50 bg-gray-700">
         <div className="flex flex-col w-full h-auto">
           <Fade bottom>
-            <Hero ref={ref} text="Testing" />
+            <Hero
+              ref={ref}
+              skillsRef={skillsRef}
+              text="Testing"
+              scrollTo={scrollToHome}
+              scrollToProjects={scrollToProjects}
+              scrollToSkills={scrollToSkills}
+            />
           </Fade>
         </div>
 
-        <div className="flex flex-col w-full h-auto">
+        <div className="flex flex-col w-full h-auto" ref={projectsRef}>
           <Fade bottom>
             <ProjectsSection />
           </Fade>

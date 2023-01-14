@@ -3,7 +3,6 @@
 import "../styles/globals.css";
 import { useCallback } from "react";
 import { Layout } from "../scenes";
-import { Header, Footer } from "../components";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { particles } from "../config/particles";
@@ -13,9 +12,7 @@ function MyApp({ Component, pageProps }) {
     await loadFull(engine);
   }, []);
 
-  const particlesLoaded = useCallback(async (container) => {
-    await console.log(container);
-  }, []);
+  const particlesLoaded = useCallback(async (container) => {}, []);
 
   return (
     <div className="bg-[#434242]">
