@@ -17,10 +17,12 @@ const ProjectsSection = () => {
       </span>
       <div className="grid grid-cols-1 gap-4 px-2 mt-10 lg:gap-10 md:grid-cols-2 place-items-center md:px-10 lg:px-28">
         <ProjectCard
-          imageUri="https://images.pexels.com/photos/3183190/pexels-photo-3183190.jpeg?auto=compress&cs=tinysrgb&w=1600"
-          title="Title"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, doloremque aliquid. Eius iste."
-          techs={techsForPorfolio}
+          imageUri="wordpress_portfolio.png"
+          title="Wordpress Website Replica"
+          desc="A replica of 2021 wordpress website made using complex grid and many more design patterns"
+          techs={techsForWordpress}
+          livePreview="https://wordpress-homepage-design-clone.netlify.app/"
+          githubLink="https://github.com/uzzam-web-dev/wordpress_web_design"
         />
         <ProjectCard
           imageUri="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=1600"

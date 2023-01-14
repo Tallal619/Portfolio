@@ -9,7 +9,7 @@ export default function Home() {
   const ref = useRef(null);
   const homeRef = useRef(null);
   const projectsRef = useRef(null);
-  const skillsRef = useRef(null);
+  const contactRef = useRef(null);
 
   const scrollToHero = () => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
@@ -23,8 +23,8 @@ export default function Home() {
     projectsRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
-  const scrollToSkills = () => {
-    skillsRef.current?.scrollIntoView({ behavior: "smooth" });
+  const scrollToContact = () => {
+    contactRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -44,11 +44,10 @@ export default function Home() {
           <Fade bottom>
             <Hero
               ref={ref}
-              skillsRef={skillsRef}
               text="Testing"
               scrollTo={scrollToHome}
               scrollToProjects={scrollToProjects}
-              scrollToSkills={scrollToSkills}
+              scrollToContact={scrollToContact}
             />
           </Fade>
         </div>
@@ -59,7 +58,7 @@ export default function Home() {
           </Fade>
         </div>
 
-        <div className="flex flex-col w-full h-auto">
+        <div className="flex flex-col w-full h-auto" ref={contactRef}>
           <Contact />
         </div>
       </div>

@@ -7,7 +7,7 @@ import { skills } from "../config/skills";
 
 // COMPONENT
 const Hero = (
-  { text, scrollTo, scrollToProjects, scrollToSkills, skillsRef },
+  { scrollTo, scrollToProjects, scrollToContact, skillsRef },
   ref
 ) => {
   return (
@@ -18,7 +18,7 @@ const Hero = (
       <Header
         scrollTo={scrollTo}
         scrollToProjects={scrollToProjects}
-        scrollToSkills={scrollToSkills}
+        scrollToContact={scrollToContact}
       />
       <span className="self-center py-4 mt-10 text-2xl md:text-4xl border-b-[#0be779] text-center border-b-4 text-gray-50">
         About

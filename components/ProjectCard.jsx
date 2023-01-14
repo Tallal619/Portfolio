@@ -6,7 +6,14 @@ import webLinkIcon from "../public/web-link.png";
 import Link from "next/link";
 import { MiniTechCard } from "./";
 
-const ProjectCard = ({ imageUri, title, desc, techs }) => {
+const ProjectCard = ({
+  imageUri,
+  title,
+  desc,
+  techs,
+  livePreview,
+  githubLink,
+}) => {
   return (
     <div className="flex flex-col items-center w-5/6 bg-gray-600 border-2 rounded-md">
       <img src={imageUri} alt="" className=" rounded-t-md" />
@@ -24,13 +31,13 @@ const ProjectCard = ({ imageUri, title, desc, techs }) => {
           })}
         </div>
 
-        <Link href={""}>
+        <Link href={livePreview ? livePreview : ""}>
           <span className="flex flex-row items-center justify-center py-1 mb-4 font-semibold bg-white rounded-sm cursor-pointer max-w-fit">
             <img src={webLinkIcon.src} className="w-[10%] mr-4" alt="github" />
             Live Preview
           </span>
         </Link>
-        <Link href={""}>
+        <Link href={githubLink ? githubLink : ""}>
           <span className="flex flex-row items-center justify-center py-1 mb-4 font-semibold bg-white rounded-sm cursor-pointer max-w-fit">
             <img src={githubIcon.src} className="w-[10%] mr-4" alt="github" />
             Github Repository

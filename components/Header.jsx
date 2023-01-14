@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const Header = ({ scrollTo, scrollToProjects, scrollToSkills }) => {
+const Header = ({ scrollTo, scrollToProjects, scrollToContact }) => {
   const currentRoute = useRouter().pathname;
 
   return (
@@ -42,9 +42,9 @@ const Header = ({ scrollTo, scrollToProjects, scrollToSkills }) => {
             ? "font-bold text-white"
             : "font-semibold text-gray-300"
         }`}
-        onClick={scrollToSkills}
+        onClick={scrollToContact}
       >
-        skills
+        contact
       </span>
       {/* </Link> */}
 
