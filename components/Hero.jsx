@@ -28,7 +28,7 @@ const Hero = (
           <span className="text-xl font-bold md:text-3xl">Who am I?</span>
           <span className="text-md md:text-lg">I am Uzzam Altaf</span>
           <span className="text-md md:text-lg">
-            ⚡ I'm a full stack web developer mainly focusing on emerging
+            ⚡ I&apos;m a full stack web developer mainly focusing on emerging
             technologies
           </span>
           <span className="text-md md:text-lg">
@@ -51,7 +51,7 @@ const Hero = (
             />
           </span>
           <span className="text-md md:text-lg">
-            Since 2020 - I've spent my time seeking and learning new
+            Since 2020 - I&apos;ve spent my time seeking and learning new
             technologies and techniques. This has lead me to working on some
             awesome personal projects.
           </span>

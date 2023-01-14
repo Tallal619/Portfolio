@@ -20,7 +20,7 @@ const Intro = ({ scrollToHero }, ref) => {
         />
         <div className="flex flex-row">
           <h1 className="text-2xl font-bold text-white md:text-4xl">
-            Hi, I'm <span className="text-[#0be779]">Uzzam Altaf </span>.
+            Hi, I&apos;m <span className="text-[#0be779]">Uzzam Altaf </span>.
           </h1>
           <span className="text-2xl md:text-4xl animate-wiggle">👋</span>
         </div>
