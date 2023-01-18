@@ -9,3 +9,4 @@ export { default as ProjectsSection } from "./ProjectsSection";
 export { default as ProjectCard } from "./ProjectCard";
 export { default as MiniTechCard } from "./MiniTechCard";
 export { default as Contact } from "./Contact";
+export { default as SkillsModal } from "./SkillsModal";

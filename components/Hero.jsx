@@ -1,15 +1,17 @@
 /** @format */
 
-import React, { forwardRef } from "react";
-import { Header, Skill } from "./";
+import React, { forwardRef, useState } from "react";
+import { Header, Skill, SkillsModal } from "./";
 import TypeWriter from "typewriter-effect";
 import { skills } from "../config/skills";
 
 // COMPONENT
 const Hero = (
-  { scrollTo, scrollToProjects, scrollToContact, skillsRef },
+  { scrollTo, scrollToProjects, scrollToContact, skillsRef, changeModalState },
   ref
 ) => {
+  const [showSkillModal, setShowSkillModal] = useState(false);
+
   return (
     <div
       ref={ref}
@@ -73,6 +75,12 @@ const Hero = (
                 />
               );
             })}
+            <span
+              className="font-bold rounded-md text-[#0be779] bg-gray-900 py-2 w-fit px-4 cursor-pointer"
+              onClick={changeModalState}
+            >
+              Many more
+            </span>
           </div>
         </div>
       </div>

@@ -18,13 +18,12 @@ const ProjectCard = ({
     <div className="flex flex-col items-center w-5/6 bg-gray-600 border-2 rounded-md">
       <img src={imageUri} alt="" className=" rounded-t-md" />
       <div className="flex flex-col items-center justify-start w-full px-6">
-        <span className="my-2 text-2xl font-bold md:my-4 md:text-3xl text-gray-50">
+        <span className="my-2 text-xl font-bold text-center md:my-4 md:text-3xl text-gray-50">
           {title}
         </span>
-        <span className="mb-2 font-semibold text-center text-md md:text-base md:mb-4 text-gray-50">
+        <span className="mb-2 text-sm font-semibold text-center md:text-md md:mb-4 text-gray-50">
           {desc}
         </span>
-
         <div className="grid w-full grid-cols-3 gap-1 my-4 lg:gap-2 xl:grid-cols-4">
           {techs.map((elem, index) => {
             return <MiniTechCard key={index} tech={elem} />;
