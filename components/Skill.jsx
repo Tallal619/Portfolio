@@ -35,7 +35,7 @@ const Skill = ({ skill, progress }) => {
 
   return (
     <div className="flex flex-row items-center w-full bg-gray-600 rounded-sm">
-      <span className="bg-[#2dcc7d] text-white font-bold flex-[0.4] md:flex-[0.3] text-md text-center py-1 px-2 uppercase">
+      <span className="bg-[#2dcc7d] text-white font-bold flex-[0.4] md:flex-[0.3] text-md text-center py-1 px-2 capitalize">
         {skill}
       </span>
       <div className="flex-1 w-full h-full" ref={setRef}>
