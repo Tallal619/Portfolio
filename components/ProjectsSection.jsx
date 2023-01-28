@@ -3,10 +3,10 @@
 import React from "react";
 import { ProjectCard } from "./";
 import {
-  techsForPorfolio,
   techsForWordpress,
   techsForBlogContentful,
   techsForSkatule,
+  techsForPorfolio,
 } from "../config/techs";
 
 const ProjectsSection = () => {
@@ -25,22 +25,28 @@ const ProjectsSection = () => {
           githubLink="https://github.com/uzzam-web-dev/wordpress_web_design"
         />
         <ProjectCard
-          imageUri="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=1600"
-          title="Title"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, doloremque aliquid. Eius iste."
-          techs={techsForBlogContentful}
+          imageUri="portfolioImage.png"
+          title="Porfolio"
+          desc="Stunning porfolio made using the best of my skills."
+          techs={techsForPorfolio}
+          githubLink="https://github.com/uzzam-web-dev/portfolio"
+          livePreview="https://uzzam-portfolio.netlify.app/"
         />
         <ProjectCard
-          imageUri="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=1600"
-          title="Title"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, doloremque aliquid. Eius iste."
-          techs={techsForWordpress}
-        />
-        <ProjectCard
-          imageUri="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=1600"
-          title="Title"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, doloremque aliquid. Eius iste."
+          imageUri="skatulWebImage.png"
+          title="Image reseizer design"
+          desc="Web design for image resizing company."
           techs={techsForSkatule}
+          livePreview="https://skatule-web-design.netlify.app/"
+          githubLink="https://github.com/uzzam-web-dev/we_design_skatule"
+        />
+        <ProjectCard
+          imageUri="helperDevImage.png"
+          title="Helper dev"
+          desc="Simple project mainly focusing on content management."
+          techs={techsForBlogContentful}
+          livePreview="https://helper-dev.netlify.app/"
+          githubLink={""}
         />
       </div>
     </div>

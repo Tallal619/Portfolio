@@ -14,9 +14,20 @@ const ProjectCard = ({
   livePreview,
   githubLink,
 }) => {
+  const openWindow = (link) => {
+    if (githubLink == "" || livePreview == "") {
+      return;
+    }
+    window.open(link, "_blank", "noreferrer");
+  };
+
   return (
     <div className="flex flex-col items-center w-5/6 bg-gray-600 border-2 rounded-md">
-      <img src={imageUri} alt="" className=" rounded-t-md" />
+      <img
+        src={`${imageUri}`}
+        alt=""
+        className="object-cover w-full rounded-t-md h-72"
+      />
       <div className="flex flex-col items-center justify-start w-full px-6">
         <span className="my-2 text-xl font-bold text-center md:my-4 md:text-3xl text-gray-50">
           {title}
@@ -30,18 +41,28 @@ const ProjectCard = ({
           })}
         </div>
 
-        <Link href={livePreview ? livePreview : ""}>
-          <span className="flex flex-row items-center justify-center py-1 mb-4 font-semibold bg-white rounded-sm cursor-pointer max-w-fit">
-            <img src={webLinkIcon.src} className="w-[10%] mr-4" alt="github" />
-            Live Preview
-          </span>
-        </Link>
-        <Link href={githubLink ? githubLink : ""}>
-          <span className="flex flex-row items-center justify-center py-1 mb-4 font-semibold bg-white rounded-sm cursor-pointer max-w-fit">
-            <img src={githubIcon.src} className="w-[10%] mr-4" alt="github" />
-            Github Repository
-          </span>
-        </Link>
+        {/* <Link href={livePreview ? livePreview : ""}> */}
+        <span
+          onClick={() => {
+            openWindow(livePreview);
+          }}
+          className="flex flex-row items-center justify-center py-1 mb-4 font-semibold bg-white rounded-sm cursor-pointer max-w-fit"
+        >
+          <img src={webLinkIcon.src} className="w-[10%] mr-4" alt="github" />
+          Live Preview
+        </span>
+        {/* </Link> */}
+        {/* <Link href={githubLink ? githubLink : ""}> */}
+        <span
+          onClick={() => {
+            openWindow(githubLink);
+          }}
+          className="flex flex-row items-center justify-center py-1 mb-4 font-semibold bg-white rounded-sm cursor-pointer max-w-fit"
+        >
+          <img src={githubIcon.src} className="w-[10%] mr-4" alt="github" />
+          {githubLink != "" ? "Github Repository" : "Private repository"}
+        </span>
+        {/* </Link> */}
       </div>
     </div>
   );
