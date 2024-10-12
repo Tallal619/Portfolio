@@ -3,6 +3,7 @@
 export const skills = [
   { skill: "react", progress: 95 },
   { skill: "next", progress: 80 },
+  { skill: "flutter", progress: 90 },
   { skill: "github", progress: 80 },
   { skill: "nodejs", progress: 85 },
   { skill: "express", progress: 85 },
@@ -14,6 +15,7 @@ export const skills = [
 export const allSkills = [
   { skill: "react", progress: 95 },
   { skill: "next", progress: 80 },
+  { skill: "flutter", progress: 90 },
   { skill: "github", progress: 80 },
   { skill: "nodejs", progress: 85 },
   { skill: "express", progress: 85 },
