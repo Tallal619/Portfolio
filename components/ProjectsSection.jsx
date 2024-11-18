@@ -29,8 +29,8 @@ const ProjectsSection = () => {
           title="Porfolio"
           desc="Stunning porfolio made using the best of my skills."
           techs={techsForPorfolio}
-          githubLink="https://github.com/uzzam-web-dev/portfolio"
-          livePreview="https://uzzam-portfolio.netlify.app/"
+          githubLink="https://github.com/Tallal619/Portfolio"
+          livePreview="https://tallal-portfolio.netlify.app/"
         />
         <ProjectCard
           imageUri="skatulWebImage.png"
