@@ -12,7 +12,7 @@ import {
 const ProjectsSection = () => {
   return (
     <div className="flex flex-col items-center justify-start h-auto py-10 bg-gray-700">
-      <span className="text-3xl md:text-4xl font-bold border-b-[#0be779] border-b-4 py-4 text-white">
+      <span className="text-3xl md:text-4xl font-bold border-b-[#4966b6] border-b-4 py-4 text-white">
         Projects
       </span>
       <div className="grid grid-cols-1 gap-4 px-2 mt-10 lg:gap-10 md:grid-cols-2 place-items-center md:px-10 lg:px-28">

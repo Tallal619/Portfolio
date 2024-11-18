@@ -8,7 +8,7 @@ const Header = ({ scrollTo, scrollToProjects, scrollToContact }) => {
   const currentRoute = useRouter().pathname;
 
   return (
-    <div className="flex flex-row items-center justify-around w-full px-10 md:px-20 py-6 text-white bg-gray-800 border-b-4 border-b-[#0be779] text-sm md:text-base">
+    <div className="flex flex-row items-center justify-around w-full px-10 md:px-20 py-6 text-white bg-gray-800 border-b-4 border-b-[#3b82f6] text-sm md:text-base">
       {/* <Link href={"/"}> */}
       <span
         className={`uppercase cursor-pointer ${

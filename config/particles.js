@@ -3,7 +3,7 @@
 export const particles = {
   particles: {
     number: { value: 20 },
-    color: { value: ["#0be779", "#008a3e", "#a3ffce"] },
+    color: { value: ["#0d6efd", "#1f77d1", "#4ea8f6"] }, // Different shades of blue
     opacity: {
       value: 0.5,
       random: false,
@@ -21,7 +21,7 @@ export const particles = {
     line_linked: {
       enable: true,
       distance: 450,
-      color: "#ffffff",
+      color: "#4ea8f6", // A matching blue color for line links
       opacity: 0.1,
       width: 1,
     },
@@ -31,12 +31,10 @@ export const particles = {
       direction: "none",
       random: true,
       straight: false,
-      // bounce: true,
     },
   },
   interactivity: {
     detect_on: "canvas",
-    // activate
     events: {
       onhover: {
         enable: true,

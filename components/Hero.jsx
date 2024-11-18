@@ -15,37 +15,37 @@ const Hero = (
   return (
     <div
       ref={ref}
-      className="flex flex-col items-start justify-start w-full h-auto pb-12 font-bold bg-gray-700"
+      className="flex flex-col items-start justify-start w-full h-auto pb-12 font-bold bg-gray-800"
     >
       <Header
         scrollTo={scrollTo}
         scrollToProjects={scrollToProjects}
         scrollToContact={scrollToContact}
       />
-      <span className="self-center py-4 mt-10 text-2xl md:text-4xl border-b-[#0be779] text-center border-b-4 text-gray-50">
+      <span className="self-center py-4 mt-10 text-2xl md:text-4xl border-b-[#3b82f6] text-center border-b-4 text-gray-50">
         About
       </span>
       <div className="flex flex-col w-full px-2 mt-10 lg:flex-row md:px-28">
         <div className="flex flex-col flex-1 gap-4 px-8 text-white">
           <span className="text-xl font-bold md:text-3xl">Who am I?</span>
-          <span className="text-md md:text-lg">I am Tallal Aamir</span>
+          <span className="text-md md:text-lg">I&apos;m Tallal Aamir.</span>
           <span className="text-md md:text-lg">
-            ⚡ I&apos;m a full stack web developer mainly focusing on emerging
-            technologies
+            ⚡ A passionate full-stack web developer focused on crafting modern,
+            high-performance applications using cutting-edge technologies.
           </span>
           <span className="text-md md:text-lg">
-            ⚡ You can find me working mainly with Javascript, React, Node,
-            Express, Mongoo and Tailwind CSS
+            ⚡ My expertise lies in technologies like JavaScript, React,
+            Node.js, Express, MongoDB, and Tailwind CSS.
           </span>
           <span className="flex flex-row gap-2 text-md md:text-lg">
             ⚡
             <TypeWriter
               options={{
                 strings: [
-                  "I love solving complex problems.",
-                  "I love learning new technologies.",
-                  "I love trying new things.",
-                  "I love fixing hard-to-fix bugs.",
+                  "I enjoy solving complex problems.",
+                  "I'm constantly exploring new technologies.",
+                  "I thrive on building creative solutions.",
+                  "I specialize in debugging hard-to-fix bugs.",
                 ],
                 loop: true,
                 autoStart: true,
@@ -53,9 +53,9 @@ const Hero = (
             />
           </span>
           <span className="text-md md:text-lg">
-            Since 2020 - I&apos;ve spent my time seeking and learning new
-            technologies and techniques. This has lead me to working on some
-            awesome personal projects.
+            Since 2020, I&apos;ve been dedicated to learning and evolving as a
+            developer. This journey has allowed me to work on impactful projects
+            and refine my skills.
           </span>
         </div>
         <div
@@ -76,7 +76,7 @@ const Hero = (
               );
             })}
             <span
-              className="font-bold rounded-md text-[#0be779] bg-gray-900 py-2 w-fit px-4 cursor-pointer"
+              className="font-bold rounded-md text-[#3b82f6] bg-gray-900 py-2 w-fit px-4 cursor-pointer"
               onClick={changeModalState}
             >
               Many more
