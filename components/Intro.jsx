@@ -15,23 +15,23 @@ const Intro = ({ scrollToHero }, ref) => {
       <div className="flex flex-col items-center justify-center">
         <img
           src="https://cdn-icons-png.flaticon.com/128/2202/2202112.png"
-          alt="Profile Icon"
+          alt=""
           className="w-16 h-16 mb-3 border-2 rounded-full md:w-24 md:h-24 md:border-4"
         />
         <div className="flex flex-row">
           <h1 className="text-2xl font-bold text-white md:text-4xl">
-            Hi, I&apos;m{" "}
+            Hello, I&apos;m{" "}
             <span className="text-[#4290a3]">Muhammad Tallal Aamir</span>.
           </h1>
-          <span className="text-2xl md:text-4xl animate-wiggle">👋</span>
+          <span className="text-2xl md:text-4xl">👋</span>
         </div>
         <span className="px-2 mt-4 text-2xl font-semibold text-center text-white md:text-3xl">
           <TypeWriter
             options={{
               strings: [
-                "A passionate full-stack web developer.",
-                "I specialize in creating dynamic web solutions.",
-                "Transforming ideas into reality with code.",
+                "I am a passionate full stack developer.",
+                "I enjoy solving complex problems.",
+                "I love building innovative solutions.",
               ],
               loop: true,
               autoStart: true,
@@ -42,8 +42,8 @@ const Intro = ({ scrollToHero }, ref) => {
         <div className="flex flex-row items-center justify-center gap-4 mt-4">
           <img
             src={linkedInIcon.src}
-            alt="LinkedIn Icon"
-            className="w-[10%] h-[10%] object-contain cursor-pointer hover:scale-110 transition-transform"
+            alt="LinkedIn"
+            className="w-[10%] h-[10%] object-contain cursor-pointer"
             onClick={() => {
               openSocials("https://www.linkedin.com/in/tallal-aamir-baa71b277");
             }}
