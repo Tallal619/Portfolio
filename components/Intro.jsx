@@ -11,21 +11,21 @@ const Intro = ({ scrollToHero }, ref) => {
   };
 
   return (
-    <div className="flex items-center justify-center h-screen" ref={ref}>
-      <div className="flex flex-col items-center justify-center">
+    <div className="flex items-center justify-center h-screen px-4" ref={ref}>
+      <div className="flex flex-col items-center justify-center text-center">
         <img
           src="https://cdn-icons-png.flaticon.com/128/2202/2202112.png"
-          alt=""
+          alt="Profile"
           className="w-16 h-16 mb-3 border-2 rounded-full md:w-24 md:h-24 md:border-4"
         />
-        <div className="flex flex-row">
+        <div className="flex flex-row items-center justify-center space-x-2">
           <h1 className="text-2xl font-bold text-white md:text-4xl">
             Hello, I&apos;m{" "}
             <span className="text-[#4290a3]">Muhammad Tallal Aamir</span>.
           </h1>
           <span className="text-2xl md:text-4xl">👋</span>
         </div>
-        <span className="px-2 mt-4 text-2xl font-semibold text-center text-white md:text-3xl">
+        <span className="px-4 mt-4 text-2xl font-semibold text-center text-white md:text-3xl">
           <TypeWriter
             options={{
               strings: [
@@ -51,7 +51,7 @@ const Intro = ({ scrollToHero }, ref) => {
         </div>
 
         <div
-          className="px-2 py-2 mt-8 bg-white rounded-md cursor-pointer animate-bounce"
+          className="px-4 py-2 mt-8 bg-white rounded-md cursor-pointer animate-bounce"
           onClick={scrollToHero}
         >
           <img src={downArrow.src} width={30} height={30} />
