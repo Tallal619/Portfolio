@@ -28,7 +28,7 @@ const Hero = (
       <div className="flex flex-col w-full px-2 mt-10 lg:flex-row md:px-28">
         <div className="flex flex-col flex-1 gap-4 px-8 text-white">
           <span className="text-xl font-bold md:text-3xl">Who am I?</span>
-          <span className="text-md md:text-lg">I am Uzzam Altaf</span>
+          <span className="text-md md:text-lg">I am Tallal Aamir</span>
           <span className="text-md md:text-lg">
             ⚡ I&apos;m a full stack web developer mainly focusing on emerging
             technologies

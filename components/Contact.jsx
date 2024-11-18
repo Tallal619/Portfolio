@@ -1,5 +1,3 @@
-/** @format */
-
 import React from "react";
 import githubIcon from "../public/github.png";
 import instaIcon from "../public/instagram.png";
