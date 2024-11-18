@@ -19,7 +19,7 @@ const Contact = () => {
           Email :{" "}
         </span>
         <span className="text-[#0be779] text-xl font-semibold">
-          uzzamwebdev@gmail.com
+          tallalaamir321@gmail.com
         </span>
       </div>
 
@@ -29,29 +29,29 @@ const Contact = () => {
           alt=""
           className="w-[10%] h-[10%] md:w-[3%] cursor-pointer"
           onClick={() => {
-            openSocials("https://github.com/uzzam-web-dev");
+            openSocials("https://github.com/Tallal619");
           }}
         />
-        <img
+        {/* <img
           src={instaIcon.src}
           alt=""
           className="w-[10%] h-[10%] md:w-[3%] cursor-pointer"
           onClick={() => {
             openSocials("https://www.instagram.com/uzzam.codes");
           }}
-        />
+        /> */}
         <img
           src={linkedInIcon.src}
           alt=""
           className="w-[10%] h-[10%] md:w-[3%] cursor-pointer"
           onClick={() => {
-            openSocials("https://www.linkedin.com/in/uzzam-altaf-1b1675260/");
+            openSocials("https://www.linkedin.com/in/tallal-aamir-baa71b277");
           }}
         />
       </div>
 
       <span className="mb-4 font-semibold text-gray-50">
-        Made with ❤️ by Uzzam Altaf
+        Made with ❤️ by Tallal Aamir
       </span>
     </div>
   );

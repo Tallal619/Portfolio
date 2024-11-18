@@ -43,7 +43,7 @@ const Intro = ({ scrollToHero }, ref) => {
             alt=""
             className="w-[10%] h-[10%] object-contain cursor-pointer"
             onClick={() => {
-              openSocials("https://www.linkedin.com/in/uzzam-altaf-1b1675260/");
+              openSocials("https://www.linkedin.com/in/tallal-aamir-baa71b277");
             }}
           />
         </div>
