@@ -11,6 +11,7 @@ import {
   techsForDentalWeb,
   techsForMarketingWeb,
   techsForHrvWeb,
+  techsForDigiCricWeb,
 } from "../config/techs";
 
 const ProjectsSection = () => {
@@ -81,6 +82,15 @@ const ProjectsSection = () => {
           desc={"HR Audit Services Website made completely on Wordpress"}
           techs={techsForHrvWeb}
           livePreview="https://hrvertica.com/"
+        />
+        <ProjectCard
+          imageUri={"digiCricImage.png"}
+          title={"DIGI Cricket"}
+          desc={
+            "ESPN Cricket Clone Completely Coded And developed from scratch."
+          }
+          techs={techsForDigiCricWeb}
+          livePreview="https://digicrick.github.io/crickdigi/Home.html"
         />
       </div>
     </div>

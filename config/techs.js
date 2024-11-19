@@ -48,3 +48,12 @@ export const techsForHrvWeb = [
   "Google forms",
   "Google Maps",
 ]
+export const techsForDigiCricWeb = [
+  "HTML",
+  "CSS",
+  "Bootstrap CSS",
+  "Bootstrap Icons",
+  "JavaScript",
+  "Forms",
+  "Signup/Login"
+]
