@@ -26,3 +26,25 @@ export const techsForLucncy = [
   "Custom HTML",
   "Embedded Apps",
 ]
+export const techsForDentalWeb = [
+  "ReactJS",
+  "Tailwind CSS",
+  "React Icons",
+  "CSS",
+  "Google Map integration",
+  "Google forms",
+  "Whatsapp Contact"
+
+]
+export const techsForMarketingWeb = [
+  "ReactJS",
+  "Tailwind CSS",
+  "CSS",
+  "Google forms",
+  "Whatsapp Contact"
+]
+export const techsForHrvWeb = [
+  "wordpress",
+  "Google forms",
+  "Google Maps",
+]

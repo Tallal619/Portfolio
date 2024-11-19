@@ -8,6 +8,9 @@ import {
   techsForSkatule,
   techsForPorfolio,
   techsForLucncy,
+  techsForDentalWeb,
+  techsForMarketingWeb,
+  techsForHrvWeb,
 } from "../config/techs";
 
 const ProjectsSection = () => {
@@ -55,6 +58,29 @@ const ProjectsSection = () => {
           desc={"Shopify website for a skincare store"}
           techs={techsForLucncy}
           livePreview="https://www.lucncy.com"
+        />
+        <ProjectCard
+          imageUri={"dentalWebImage.png"}
+          title={"MM Dental Associates"}
+          desc={
+            "A Dental Clinic website with google map and customer appointment forms along with whatsapp direct message"
+          }
+          techs={techsForDentalWeb}
+          livePreview="https://mmdentalassociates.com/"
+        />
+        <ProjectCard
+          imageUri={"marketingWebImage.png"}
+          title={"SHM Agency"}
+          desc={"A Marketing Agency Website with customer appointment forms."}
+          techs={techsForMarketingWeb}
+          livePreview="https://testahmarketing.netlify.app/"
+        />
+        <ProjectCard
+          imageUri={"hrvImage.png"}
+          title={"HR Vertica"}
+          desc={"HR Audit Services Website made completely on Wordpress"}
+          techs={techsForHrvWeb}
+          livePreview="https://hrvertica.com/"
         />
       </div>
     </div>
