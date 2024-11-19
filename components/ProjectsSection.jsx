@@ -22,15 +22,15 @@ const ProjectsSection = () => {
       </span>
       <div className="grid grid-cols-1 gap-4 px-2 mt-10 lg:gap-10 md:grid-cols-2 place-items-center md:px-10 lg:px-28">
         <ProjectCard
-          imageUri="wordpress_portfolio.png"
+          imageUri="https://i.imgur.com/dlQfDSH.png"
           title="Wordpress Website Replica"
           desc="A replica of 2021 wordpress website made using complex grid and many more design patterns"
           techs={techsForWordpress}
           livePreview="https://wordpress-homepage-design-clone.netlify.app/"
           githubLink="https://github.com/uzzam-web-dev/wordpress_web_design"
         />
-        {/* <ProjectCard
-          imageUri="portfolioImage.png"
+        <ProjectCard
+          imageUri="https://i.imgur.com/P27cyRO.png"
           title="Porfolio"
           desc="Stunning porfolio made using the best of my skills."
           techs={techsForPorfolio}
@@ -38,30 +38,30 @@ const ProjectsSection = () => {
           livePreview="https://tallal-portfolio.netlify.app/"
         />
         <ProjectCard
-          imageUri="skatulWebImage.png"
+          imageUri="https://i.imgur.com/YIdysaW.png"
           title="Image reseizer design"
           desc="Web design for image resizing company."
           techs={techsForSkatule}
           livePreview="https://skatule-web-design.netlify.app/"
           githubLink="https://github.com/uzzam-web-dev/we_design_skatule"
-        /> */}
-        {/* <ProjectCard
-          imageUri="helperDevImage.png"
+        />
+        <ProjectCard
+          imageUri="https://i.imgur.com/QUDmdYj.png"
           title="Helper dev"
           desc="Simple project mainly focusing on content management."
           techs={techsForBlogContentful}
           livePreview="https://helper-dev.netlify.app/"
           githubLink={""}
-        /> */}
+        />
         <ProjectCard
-          imageUri={"LucncyImage.png"}
+          imageUri={"https://i.imgur.com/sMRIZyI.png"}
           title={"LUCNCY"}
           desc={"Shopify website for a skincare store"}
           techs={techsForLucncy}
           livePreview="https://www.lucncy.com"
         />
         <ProjectCard
-          imageUri={"dentalWebImage.png"}
+          imageUri={"https://i.imgur.com/UzEN5tq.png"}
           title={"MM Dental Associates"}
           desc={
             "A Dental Clinic website with google map and customer appointment forms along with whatsapp direct message"
@@ -70,21 +70,21 @@ const ProjectsSection = () => {
           livePreview="https://mmdentalassociates.com/"
         />
         <ProjectCard
-          imageUri={"marketingWebImage.png"}
+          imageUri={"https://i.imgur.com/fuUAdgZ.png"}
           title={"SHM Agency"}
           desc={"A Marketing Agency Website with customer appointment forms."}
           techs={techsForMarketingWeb}
           livePreview="https://testahmarketing.netlify.app/"
         />
         <ProjectCard
-          imageUri={"hrvImage.png"}
+          imageUri={"https://i.imgur.com/8Uw6MnS.png"}
           title={"HR Vertica"}
           desc={"HR Audit Services Website made completely on Wordpress"}
           techs={techsForHrvWeb}
           livePreview="https://hrvertica.com/"
         />
         <ProjectCard
-          imageUri={"digiCricImage.png"}
+          imageUri={"https://i.imgur.com/b1FTgmQ.png"}
           title={"DIGI Cricket"}
           desc={
             "ESPN Cricket Clone Completely Coded And developed from scratch."
