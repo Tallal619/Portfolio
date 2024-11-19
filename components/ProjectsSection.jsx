@@ -45,14 +45,14 @@ const ProjectsSection = () => {
           livePreview="https://skatule-web-design.netlify.app/"
           githubLink="https://github.com/uzzam-web-dev/we_design_skatule"
         />
-        {/* <ProjectCard
+        <ProjectCard
           imageUri="helperDevImage.png"
           title="Helper dev"
           desc="Simple project mainly focusing on content management."
           techs={techsForBlogContentful}
           livePreview="https://helper-dev.netlify.app/"
           githubLink={""}
-        /> */}
+        />
         <ProjectCard
           imageUri={"LucncyImage.png"}
           title={"LUCNCY"}
