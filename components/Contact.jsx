@@ -10,7 +10,7 @@ const Contact = () => {
 
   return (
     <div className="flex flex-col items-center justify-center w-full h-full mt-10 text-gray-50">
-      <span className="text-2xl font-bold md:text-4xl border-b-[#0be779] border-b-4 pb-4">
+      <span className="text-2xl font-bold md:text-4xl border-b-[#3b82f6] border-b-4 pb-4">
         Contact
       </span>
 
