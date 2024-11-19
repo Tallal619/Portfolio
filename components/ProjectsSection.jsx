@@ -29,7 +29,7 @@ const ProjectsSection = () => {
           livePreview="https://wordpress-homepage-design-clone.netlify.app/"
           githubLink="https://github.com/uzzam-web-dev/wordpress_web_design"
         />
-        <ProjectCard
+        {/* <ProjectCard
           imageUri="portfolioImage.png"
           title="Porfolio"
           desc="Stunning porfolio made using the best of my skills."
@@ -44,15 +44,15 @@ const ProjectsSection = () => {
           techs={techsForSkatule}
           livePreview="https://skatule-web-design.netlify.app/"
           githubLink="https://github.com/uzzam-web-dev/we_design_skatule"
-        />
-        <ProjectCard
+        /> */}
+        {/* <ProjectCard
           imageUri="helperDevImage.png"
           title="Helper dev"
           desc="Simple project mainly focusing on content management."
           techs={techsForBlogContentful}
           livePreview="https://helper-dev.netlify.app/"
           githubLink={""}
-        />
+        /> */}
         <ProjectCard
           imageUri={"LucncyImage.png"}
           title={"LUCNCY"}
