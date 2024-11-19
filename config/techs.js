@@ -20,3 +20,9 @@ export const techsForBlogContentful = [
   "Highlighter",
   "Axios",
 ];
+export const techsForLucncy = [
+  "Shopify",
+  "Custom CSS",
+  "Custom HTML",
+  "Embedded Apps",
+]

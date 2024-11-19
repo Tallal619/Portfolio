@@ -7,6 +7,7 @@ import {
   techsForBlogContentful,
   techsForSkatule,
   techsForPorfolio,
+  techsForLucncy,
 } from "../config/techs";
 
 const ProjectsSection = () => {
@@ -47,6 +48,13 @@ const ProjectsSection = () => {
           techs={techsForBlogContentful}
           livePreview="https://helper-dev.netlify.app/"
           githubLink={""}
+        />
+        <ProjectCard
+          imageUri={"LucncyImage.png"}
+          title={"LUCNCY"}
+          desc={"Shopify website for a skincare store"}
+          techs={techsForLucncy}
+          livePreview="https://www.lucncy.com"
         />
       </div>
     </div>
