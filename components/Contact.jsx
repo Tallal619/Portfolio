@@ -18,7 +18,7 @@ const Contact = () => {
         <span className="flex mr-3 text-xl font-semibold text-gray-50">
           Email :{" "}
         </span>
-        <span className="text-[#0be779] text-xl font-semibold">
+        <span className="text-[#3b82f6] text-xl font-semibold">
           tallalaamir321@gmail.com
         </span>
       </div>
@@ -51,7 +51,7 @@ const Contact = () => {
       </div>
 
       <span className="mb-4 font-semibold text-gray-50">
-        Made with ❤️ by Tallal Aamir
+        Made with ❤️ by Muhammad Tallal Aamir
       </span>
     </div>
   );
