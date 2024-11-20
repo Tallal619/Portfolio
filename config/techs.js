@@ -57,3 +57,15 @@ export const techsForDigiCricWeb = [
   "Forms",
   "Signup/Login"
 ]
+export const techsForIMSAGWeb =[
+  "HTML",
+  "CSS",
+  "Bootstrap",
+  "Angular",
+  "AG grid",
+  "SSMS",
+  "SmarterASP",
+  ".NET",
+  "C#",
+  "API",
+]

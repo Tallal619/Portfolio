@@ -12,6 +12,7 @@ import {
   techsForMarketingWeb,
   techsForHrvWeb,
   techsForDigiCricWeb,
+  techsForIMSAGWeb,
 } from "../config/techs";
 
 const ProjectsSection = () => {
@@ -21,6 +22,14 @@ const ProjectsSection = () => {
         Projects
       </span>
       <div className="grid grid-cols-1 gap-4 px-2 mt-10 lg:gap-10 md:grid-cols-2 place-items-center md:px-10 lg:px-28">
+        <ProjectCard
+          imageUri="https://i.imgur.com/BYjY9MP.png"
+          title="Inventory Management System"
+          desc="An inventory management system that uses Ag grid to manage and edit data simultaneously on the front-end and Back-end using APIs"
+          techs={techsForIMSAGWeb}
+          githubLink=""
+          livePreview=""
+        />
         <ProjectCard
           imageUri="https://i.imgur.com/dlQfDSH.png"
           title="Wordpress Website Replica"
