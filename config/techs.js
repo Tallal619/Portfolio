@@ -63,7 +63,7 @@ export const techsForIMSAGWeb =[
   "Bootstrap",
   "Angular",
   "AG grid",
-  "SSMS",
+  "SQL",
   "SmarterASP",
   ".NET",
   "C#",
