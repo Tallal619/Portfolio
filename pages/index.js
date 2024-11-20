@@ -70,9 +70,9 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col w-full h-auto" ref={projectsRef}>
-          <Fade bottom>
+          {/* <Fade bottom> */}
             <ProjectsSection />
-          </Fade>
+          {/* </Fade> */}
         </div>
 
         <div className="flex flex-col w-full h-auto" ref={contactRef}>
