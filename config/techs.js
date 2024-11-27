@@ -62,10 +62,11 @@ export const techsForIMSAGWeb =[
   "CSS",
   "Bootstrap",
   "Angular",
+  "TypeScript",
   "AG grid",
   "SQL",
   "SmarterASP",
   ".NET",
   "C#",
-  "API",
+  "API Integration",
 ]
