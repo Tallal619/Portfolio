@@ -28,14 +28,12 @@ const Hero = (
       <div className="flex flex-col w-full px-2 mt-10 lg:flex-row md:px-28">
         <div className="flex flex-col flex-1 gap-4 px-8 text-white">
           <span className="text-xl font-bold md:text-3xl">Who am I?</span>
-          <span className="text-md md:text-lg">I&apos;m Tallal Aamir.</span>
+          <span className="text-md md:text-lg">I&apos;m Muhammad Tallal Aamir.</span>
           <span className="text-md md:text-lg">
-            ⚡ A passionate full-stack web developer focused on crafting modern,
-            high-performance applications using cutting-edge technologies.
+            ⚡ A passionate full-stack developer specializing in building modern, high-performance web and mobile applications using cutting-edge technologies like React, Angular, .NET, and Shopify Theme Development.
           </span>
           <span className="text-md md:text-lg">
-            ⚡ My expertise lies in technologies like JavaScript, React,
-            Node.js, Express, MongoDB, and Tailwind CSS.
+            ⚡ I have expertise in developing scalable and high-performance web and mobile applications using technologies like JavaScript, React, Angular, Node.js, Express, MongoDB, .NET, and CSS Frameworks.
           </span>
           <span className="flex flex-row gap-2 text-md md:text-lg">
             ⚡
@@ -53,9 +51,7 @@ const Hero = (
             />
           </span>
           <span className="text-md md:text-lg">
-            Since 2020, I&apos;ve been dedicated to learning and evolving as a
-            developer. This journey has allowed me to work on impactful projects
-            and refine my skills.
+          Since 2020, I have been deeply committed to continuous learning and professional development in software engineering. Throughout this journey, I have worked on a diverse range of impactful projects, honing my expertise in web and mobile application development. This hands-on experience has allowed me to refine my technical skills, stay ahead of industry trends, and deliver high-performance solutions using modern technologies.
           </span>
         </div>
         <div

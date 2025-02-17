@@ -14,9 +14,9 @@ const Intro = ({ scrollToHero }, ref) => {
     <div className="flex items-center justify-center h-screen px-4" ref={ref}>
       <div className="flex flex-col items-center justify-center text-center">
         <img
-          src="https://cdn-icons-png.flaticon.com/128/2202/2202112.png"
+          src="profile.png"
           alt="Profile"
-          className="w-16 h-16 mb-3 border-2 rounded-full md:w-24 md:h-24 md:border-4"
+          className="w-24 mb-3 border-1 md:w-40 md:border-2"
         />
         <div className="flex flex-row items-center justify-center space-x-2">
           <h1 className="text-2xl font-bold text-white md:text-4xl">

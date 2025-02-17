@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
   const particlesLoaded = useCallback(async (container) => {}, []);
 
   return (
-    <div className="bg-[#434242]">
+    <div className="bg-[#000000]">
       <Particles
         className="fixed"
         id="tsparticles"
